@@ -26,5 +26,6 @@ To run this app locally, you need to have [Node.js] and [npm] installed on your 
 ## 📜 License
 
 This project is licensed under the MIT License.
+Copyright © 2023 Aswin
 
 
