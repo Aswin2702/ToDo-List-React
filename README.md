@@ -1,28 +1,31 @@
-# Todo List
+# 📝 Todo List with Vite React
 
-This is a simple todo list application built with Vite and React. It allows you to add, edit, and delete tasks, as well as mark them as completed.
+This is a simple todo list app built with [Vite] and [React]. You can add, edit, delete, and mark tasks as done. You can also filter tasks by status (all, active, or completed) and clear all completed tasks.
 
-## Installation
+## 🚀 Features
 
-To install the application, you'll need to have Node.js installed on your computer. Once you have Node.js installed, follow these steps:
+- Fast development with Vite
+- Modern UI with React
+- Local storage persistence
+- Responsive design
 
-1. Clone the repository to your local machine.
-2. Navigate to the project directory in your terminal.
-3. Run `npm install` to install the project dependencies.
-4. Run `npm run dev` to start the development server.
+## 🛠️ Installation
 
-The application should now be running at `http://localhost:5173`.
+To run this app locally, you need to have [Node.js] and [npm] installed on your machine.
 
-## Usage
+1. Clone this repo: `git clone https://github.com/your-username/todo-list-vite-react.git`
+2. Go to the project folder: `cd todo-list-vite-react`
+3. Install dependencies: `npm install`
+4. Start the dev server: `npm run dev`
+5. Open `http://localhost:5173` in your browser
 
-To use the application, simply add tasks using the input field at the top of the page. You can edit or delete tasks by clicking on them, and you can mark them as completed by checking the box next to them.
+## 📷 Screenshots
 
-## Contributing
+![Screenshot 1](https://github.com/Aswin2702/ToDo-List-React/assets/94279007/ff945013-d0af-4872-ae3b-3c0da6c49378)
+![Screenshot 2](https://github.com/Aswin2702/ToDo-List-React/assets/94279007/ec0687d4-382d-4f85-81a2-a2b57d23885f)
 
-If you'd like to contribute to this project, feel free to submit a pull request or open an issue. Contributions are always welcome!
-
-## License
+## 📜 License
 
 This project is licensed under the MIT License.
 
-I hope this helps! Let me know if you have any other questions.
+
