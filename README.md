@@ -21,8 +21,7 @@ To run this app locally, you need to have [Node.js] and [npm] installed on your 
 
 ## 📷 Screenshots
 
-![Screenshot 1](https://github.com/Aswin2702/ToDo-List-React/assets/94279007/ff945013-d0af-4872-ae3b-3c0da6c49378)
-![Screenshot 2](https://github.com/Aswin2702/ToDo-List-React/assets/94279007/ec0687d4-382d-4f85-81a2-a2b57d23885f)
+![Screenshot](https://github.com/Aswin2702/ToDo-List-React/assets/94279007/ec0687d4-382d-4f85-81a2-a2b57d23885f)
 
 ## 📜 License
 
