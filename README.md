@@ -13,7 +13,7 @@ This is a simple todo list app built with [Vite] and [React]. You can add, edit,
 
 To run this app locally, you need to have [Node.js] and [npm] installed on your machine.
 
-1. Clone this repo: `git clone https://github.com/your-username/todo-list-vite-react.git`
+1. Clone this repo: `git clone https://github.com/Aswin2702/ToDo-List-React.git`
 2. Go to the project folder: `cd todo-list-vite-react`
 3. Install dependencies: `npm install`
 4. Start the dev server: `npm run dev`
