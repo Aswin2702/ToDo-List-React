@@ -1,7 +1,9 @@
+/* eslint-disable react/prop-types */
 import { useState } from "react";
 import { Item } from "./Item";
 
 export default function List({ works, onDelWork, onToggleItems, onClearWork }) {
+  // console.log(works);
   const [sortBy, setSortBy] = useState("input");
 
   let sortedItems;

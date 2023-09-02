@@ -1,6 +1,7 @@
+/* eslint-disable react/prop-types */
 import { useState } from "react";
 
-export default function Form({ onAddItems, works }) {
+export default function Form({ onAddItems }) {
   const [description, setDescription] = useState("");
 
   function handleSubmit(e) {
@@ -9,7 +10,7 @@ export default function Form({ onAddItems, works }) {
     if (!description) return;
 
     const newWork = {
-      id: works.length + 1,
+      id: Math.floor(100000 + Math.random() * 900000),
       description: description,
       done: false,
     };
@@ -19,7 +20,7 @@ export default function Form({ onAddItems, works }) {
 
   return (
     <form className="add-form" onSubmit={handleSubmit}>
-      <h3>What do you intrested 😍 to do?</h3>
+      <h3>What do you interested 😍 to do?</h3>
       <input
         type="text"
         placeholder="Work to be done..."

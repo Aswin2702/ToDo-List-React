@@ -5,7 +5,9 @@ import Form from "./Components/Form";
 import Stats from "./Components/Stats";
 
 function App() {
-  const [works, setWork] = useState([]);
+  const data = JSON.parse(localStorage.getItem("data"));
+
+  const [works, setWork] = useState(data.work || []);
 
   function handleAddWork(work) {
     setWork((works) => [...works, work]);
@@ -26,6 +28,8 @@ function App() {
       )
     );
   }
+
+  localStorage.setItem("data", JSON.stringify({ work: works }));
 
   return (
     <div className="app">
