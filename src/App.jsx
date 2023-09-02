@@ -7,7 +7,7 @@ import Stats from "./Components/Stats";
 function App() {
   const data = JSON.parse(localStorage.getItem("data"));
 
-  const [works, setWork] = useState(data.work || []);
+  const [works, setWork] = useState(data?.work || []);
 
   function handleAddWork(work) {
     setWork((works) => [...works, work]);
